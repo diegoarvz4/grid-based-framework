@@ -4,5 +4,12 @@
         &-#{$i}
             width: $i/12 * 100%
 
+@mixin create-grid-media-queries($args)
+
+    @for $i from 1 through 4
+        &-#{$args} 
+            @media screen and (min-width: $args) 
+                @include create-grid()
+
 
 
