@@ -1,5 +1,30 @@
+@import './mixins'
 
 
-body
-    div
-        margin: 0 auto
+
+$screen-small: 0px
+$screen-medium: 768px
+$screem-large: 992px
+$screen-xlarge: 1200px
+
+//sass --watch assets/styles/sass/base.sass:assets/styles/main.css
+
+
+.row
+    display: flex
+    flex-wrap: wrap
+
+
+.row
+    .col
+
+        &-small
+
+            @media screen and (min-width:  $screen-small) 
+                @include create-grid()
+
+    
+
+   
+
+

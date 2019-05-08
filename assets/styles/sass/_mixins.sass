@@ -1,0 +1,8 @@
+@mixin create-grid()
+
+    @for $i from 1 through 12
+        &-#{$i}
+            width: $i/12 * 100%
+
+
+

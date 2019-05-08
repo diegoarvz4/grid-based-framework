@@ -1,5 +1,45 @@
-body div {
-  margin: 0 auto;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 0px) {
+  .row .col-small-1 {
+    width: 8.3333333333%;
+  }
+  .row .col-small-2 {
+    width: 16.6666666667%;
+  }
+  .row .col-small-3 {
+    width: 25%;
+  }
+  .row .col-small-4 {
+    width: 33.3333333333%;
+  }
+  .row .col-small-5 {
+    width: 41.6666666667%;
+  }
+  .row .col-small-6 {
+    width: 50%;
+  }
+  .row .col-small-7 {
+    width: 58.3333333333%;
+  }
+  .row .col-small-8 {
+    width: 66.6666666667%;
+  }
+  .row .col-small-9 {
+    width: 75%;
+  }
+  .row .col-small-10 {
+    width: 83.3333333333%;
+  }
+  .row .col-small-11 {
+    width: 91.6666666667%;
+  }
+  .row .col-small-12 {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
