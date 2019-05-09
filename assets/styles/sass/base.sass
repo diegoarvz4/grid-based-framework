@@ -1,48 +1,17 @@
 @import './_variables'
 @import './_mixins'
+@import './grid'
 @import './_text'
+@import './_components'
 
 //sass --watch assets/styles/sass/base.sass:assets/styles/main.css
-
-
-.row
-    display: flex
-    flex-wrap: wrap
-
-
-.row
-    .col
-        @each $size in $sizes
-            @include create-grid-media-queries($size)
 
 
 
 .test-col
     height: 100px
 
-.full
-    height: 100%
 
-.container
-    display: flex
-    
-.x
-    &-left
-        justify-content: flex-start
-    &-center 
-        justify-content: center 
-    &-right 
-        justify-content: flex-end
-    &-y-center 
-        justify-content: center 
-        align-items: center 
-.y
-    &-top
-        align-items: flex-start
-    &-center 
-        align-items: center 
-    &-bottom 
-        align-items: flex-end
 
 
 
