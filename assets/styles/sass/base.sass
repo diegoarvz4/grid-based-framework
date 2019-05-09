@@ -1,13 +1,6 @@
-@import './mixins'
-
-
-
-$screen-small: 0px
-$screen-medium: 768px
-$screen-large: 992px
-$screen-xlarge: 1200px
-
-$sizes: $screen-small, $screen-medium, $screen-large, $screen-xlarge
+@import './_variables'
+@import './_mixins'
+@import './_text'
 
 //sass --watch assets/styles/sass/base.sass:assets/styles/main.css
 
@@ -22,8 +15,35 @@ $sizes: $screen-small, $screen-medium, $screen-large, $screen-xlarge
         @each $size in $sizes
             @include create-grid-media-queries($size)
 
-    
 
-   
+
+.test-col
+    height: 100px
+
+.full
+    height: 100%
+
+.container
+    display: flex
+    
+.x
+    &-left
+        justify-content: flex-start
+    &-center 
+        justify-content: center 
+    &-right 
+        justify-content: flex-end
+    &-y-center 
+        justify-content: center 
+        align-items: center 
+.y
+    &-top
+        align-items: flex-start
+    &-center 
+        align-items: center 
+    &-bottom 
+        align-items: flex-end
+
+
 
 
