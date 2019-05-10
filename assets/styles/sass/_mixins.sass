@@ -11,11 +11,11 @@
         @if $args == 0px 
             $screen : 'small'
         @else if $args == 768px
-             $screen : 'medium'
+            $screen : 'medium'
         @else if $args == 992px
-             $screen : 'large'
+            $screen : 'large'
         @else if $args == 1200px
-             $screen : 'xlarge'
+            $screen : 'xlarge'
 
         &-#{$screen} 
             @media screen and (min-width: $args) 
