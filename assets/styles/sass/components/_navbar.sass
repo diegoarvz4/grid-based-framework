@@ -6,8 +6,6 @@ $navbar-shadow: 40px
 .navbar
     position: fixed    
     top: 0
-    display: flex
-    justify-content: flex-start
     width: 100%
     height: $navbar-height
     align-items: center
@@ -20,12 +18,30 @@ $navbar-shadow: 40px
         height: $navbar-height*0.9  
     >ul
         width: 100%
-        display: flex
-        justify-content: space-around     
+         
         >li  
             padding: 10px
             &:hover
                 background-color: $blue-2
+                cursor: pointer
+    
+    &-reverse
+        flex-direction: row-reverse
+    
+    &-left
+        >ul
+            justify-content: flex-start
+
+    &-right
+        >ul
+            justify-content: flex-end
+
+    &-spread
+        >ul
+            justify-content: space-around    
+    &-center
+        >ul
+            justify-content: center   
                 
 
 main    
