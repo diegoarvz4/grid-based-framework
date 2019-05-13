@@ -1,4 +1,16 @@
-html {
-  background-color: blue; }
+.navbar {
+  z-index: 10;
+  background-color: white;
+}
+
+.middle-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  position: relative;
+  height: 80vh;
+  background-color: gray;
+}
 
 /*# sourceMappingURL=main.css.map */

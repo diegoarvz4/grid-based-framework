@@ -6,22 +6,22 @@ F.A -Header  (WL:)
     F.A.1 - Navbar (WL:null)
     F.A.2 - Cover (WL:) (R: Ivan)
 F.B-Grid (WL:) (R:null)
-F.C-Footer(WL:) (R:Diego)
+F.C-Footer(WL:) (R:Diego) xx
 
 Pagina
 
 P.A- Header
-    P.A.1 -Navbar (D:F.A.1)(WL:)(R:Diego)
+    P.A.1 -Navbar (D:F.A.1)(WL:)(R:Diego) xx
     P.A.2 -Cover (D:F.A.2)(WL:)(R:Ivan)
 P.B - Articles (D: F.B)(WL:)(R:)
-P.C - Footer (D: F.C)(WL:)(R:)
+P.C - Footer (D: F.C)(WL:)(R:) xx
 
 Workflow
 
 Diego
-    F.C
-    P.A.1
-    P.C
+    F.C xx 
+    P.A.1  xx
+    P.C xx
 
 Ivan
     F.A.2
