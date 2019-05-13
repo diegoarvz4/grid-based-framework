@@ -1,0 +1,66 @@
+@mixin footer-links()
+            
+        
+        width: 25%
+        h1 
+            font-weight: bold 
+            margin-bottom: 10px
+        ul 
+            li 
+                margin-bottom: 5px
+            li > a 
+                text-decoration: none 
+                margin-bottom: 55px
+                font-size: 1.5rem
+                color: white
+                &:hover
+                    text-decoration: underline
+
+
+.footer
+    position: relative
+    width: 100%
+    min-height: 50px
+    display: flex
+    flex-wrap: wrap
+   
+    
+    &-top
+        
+        padding: 30px
+        background-color: #7474c1
+        width: 100% 
+        display: inherit
+        flex-wrap: inherit
+        justify-content: space-between
+        &-main 
+            width: 100%
+            order: 2
+            margin-top: 40px
+            @media screen and (min-width: 560px) 
+                width: 25%
+                order: 0
+                margin-top: 0
+            h1
+                font-weight: bold 
+                margin-bottom: 10px
+            p
+                font-size: 1.2rem
+                color: white
+                line-height: 1.5rem
+                padding-right: 20%
+
+        &-nav
+            @include footer-links()
+        &-contact
+            @include footer-links()
+        &-socialmedia
+            @include footer-links()
+    
+    &-bottom
+        display: inherit
+        justify-content: center
+        width: 100%
+        background-color: #44447c
+        padding: 10px
+        color: white
