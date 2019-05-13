@@ -20,3 +20,9 @@ Framework
 
 
 sass --watch assets/styles/sass/base.sass:assets/styles/main.css
+
+¿Que tiene un navbar?
+logo
+barra de busqueda
+es fixed
+Sombra: box shadow
