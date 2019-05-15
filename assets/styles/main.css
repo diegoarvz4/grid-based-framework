@@ -1,4 +1,37 @@
-html {
-  background-color: blue; }
+.cover div {
+  background-size: cover; }
+.cover h1, .cover h2 {
+  background-color: rgba(96, 84, 73, 0.7); }
+.cover-article1 {
+  border-radius: 20px; }
+.cover-article2 {
+  border-radius: 20px; }
+.cover-article3 {
+  border-radius: 20px; }
+
+.cover-article1 {
+  background-image: url(../img/medio-ambiente.jpg); }
+
+.cover-article2 {
+  background-image: url(../img/cambio-climatico-webb.jpg); }
+
+.cover-article3 {
+  background-image: url(../img/caraza.jpg); }
+
+.articles {
+  justify-content: center;
+  margin-top: 30px; }
+
+.article {
+  overflow: hidden;
+  border: 10px solid white;
+  border-radius: 20px;
+  background-color: rgba(220, 220, 220, 0.4); }
+  .article h1 {
+    text-transform: uppercase;
+    display: block;
+    border-bottom: 1px solid black; }
+  .article * {
+    padding: 10px; }
 
 /*# sourceMappingURL=main.css.map */

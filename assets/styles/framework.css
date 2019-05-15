@@ -516,6 +516,69 @@ main {
   position: relative;
   top: 120px; }
 
+.cover div:nth-child(2), .cover div:nth-child(3) {
+  background-color: green;
+  height: 250px; }
+  @media screen and (min-width: 768px) {
+    .cover div:nth-child(2), .cover div:nth-child(3) {
+      height: 150px;
+      left: 60%;
+      width: 40%; } }
+  @media screen and (min-width: 992px) {
+    .cover div:nth-child(2), .cover div:nth-child(3) {
+      height: 300px; } }
+  @media screen and (min-width: 768px) {
+    .cover div:nth-child(2) h2, .cover div:nth-child(3) h2 {
+      display: none; } }
+  @media screen and (min-width: 992px) {
+    .cover div:nth-child(2) h1, .cover div:nth-child(3) h1 {
+      order: 2;
+      font-size: 40px; }
+    .cover div:nth-child(2) h2, .cover div:nth-child(3) h2 {
+      display: block;
+      font-size: 20px;
+      font-weight: lighter;
+      display: inline-block; } }
+
+.cover div {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  border: 7px solid white;
+  height: 250px;
+  color: white; }
+  @media screen and (min-width: 768px) {
+    .cover div {
+      height: 300px;
+      display: flex;
+      flex-direction: column-reverse;
+      font-family: "Baloo Bhai", cursive; } }
+  @media screen and (min-width: 992px) {
+    .cover div {
+      height: 600px; } }
+  .cover div:nth-child(1) {
+    background-color: red;
+    padding: 20px; }
+    .cover div:nth-child(1) h1 {
+      order: 2;
+      font-size: 100px; }
+    .cover div:nth-child(1) h2 {
+      font-size: 20px; }
+    @media screen and (min-width: 768px) {
+      .cover div:nth-child(1) {
+        width: 60%;
+        position: absolute; } }
+    .cover div:nth-child(1) h1 {
+      order: 2;
+      font-size: 30px; }
+    .cover div:nth-child(1) h2 {
+      display: none; }
+    @media screen and (min-width: 992px) {
+      .cover div:nth-child(1) h2 {
+        display: inline-block; } }
+  .cover div:nth-child(3) {
+    background-color: yellow; }
+
 .test-col {
   height: 100px; }
 
