@@ -1,4 +1,42 @@
 //sass --watch assets/styles/sass_main/base.sass:assets/styles/main.css
 html
-  background-color: blue
+  // background-color: blue
+.cover  
+  div
+    background-size: cover
+  h1,h2
+    background-color: rgba(96, 84, 73, .7)
+  &-article1
+    border-radius: 20px     
+  &-article2
+    border-radius: 20px 
+  &-article3
+    border-radius: 20px 
+    
+
+.cover-article1
+  background-image: url(../img/medio-ambiente.jpg)
+.cover-article2
+  background-image: url(../img/cambio-climatico-webb.jpg)
+.cover-article3
+  background-image: url(../img/caraza.jpg)
+
+.articles
+  justify-content: center
+  margin-top: 30px
+  
+
+.article
+  overflow: hidden
+  // background-color: yellow
+  border: 10px solid white
+  border-radius: 20px  
+  background-color: rgba(220,220,220,.4) 
+  
+  h1
+    text-transform: uppercase
+    display: block
+    border-bottom: 1px solid black       
+  *
+    padding: 10px
 
