@@ -516,6 +516,85 @@ main {
   position: relative;
   top: 120px; }
 
+.footer {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  flex-wrap: wrap; }
+  .footer-top {
+    padding: 30px;
+    background-color: #7474c1;
+    width: 100%;
+    display: inherit;
+    flex-wrap: inherit;
+    justify-content: space-between; }
+    .footer-top-main {
+      width: 100%;
+      order: 2;
+      margin-top: 40px; }
+      @media screen and (min-width: 560px) {
+        .footer-top-main {
+          width: 25%;
+          order: 0;
+          margin-top: 0; } }
+      .footer-top-main h1 {
+        font-weight: bold;
+        margin-bottom: 10px; }
+      .footer-top-main p {
+        font-size: 1.2rem;
+        color: white;
+        line-height: 1.5rem;
+        padding-right: 20%; }
+    .footer-top-nav {
+      width: 25%; }
+      .footer-top-nav h1 {
+        font-weight: bold;
+        margin-bottom: 10px; }
+      .footer-top-nav ul li {
+        margin-bottom: 5px; }
+      .footer-top-nav ul li > a {
+        text-decoration: none;
+        margin-bottom: 55px;
+        font-size: 1.5rem;
+        color: white; }
+        .footer-top-nav ul li > a:hover {
+          text-decoration: underline; }
+    .footer-top-contact {
+      width: 25%; }
+      .footer-top-contact h1 {
+        font-weight: bold;
+        margin-bottom: 10px; }
+      .footer-top-contact ul li {
+        margin-bottom: 5px; }
+      .footer-top-contact ul li > a {
+        text-decoration: none;
+        margin-bottom: 55px;
+        font-size: 1.5rem;
+        color: white; }
+        .footer-top-contact ul li > a:hover {
+          text-decoration: underline; }
+    .footer-top-socialmedia {
+      width: 25%; }
+      .footer-top-socialmedia h1 {
+        font-weight: bold;
+        margin-bottom: 10px; }
+      .footer-top-socialmedia ul li {
+        margin-bottom: 5px; }
+      .footer-top-socialmedia ul li > a {
+        text-decoration: none;
+        margin-bottom: 55px;
+        font-size: 1.5rem;
+        color: white; }
+        .footer-top-socialmedia ul li > a:hover {
+          text-decoration: underline; }
+  .footer-bottom {
+    display: inherit;
+    justify-content: center;
+    width: 100%;
+    background-color: #44447c;
+    padding: 10px;
+    color: white; }
+
 .cover div:nth-child(2), .cover div:nth-child(3) {
   background-color: green;
   height: 250px; }
