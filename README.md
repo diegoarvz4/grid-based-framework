@@ -4,10 +4,11 @@ This project is about designing our grid based framework
 ## Brief introduction
 
 The purpose of this project is to design our CSS framework.
+Instead of replicating the chosen website, we improved the design, layout and responsiveness of the same.
 
 ## Directives
 
-[Site to replicate](https://web.archive.org/web/20190515222303/http://www.esigas.com.ar/es/) -> This is the version of the website to replicate archived on May 15th 2019
+[Site to improve](https://web.archive.org/web/20190515222303/http://www.esigas.com.ar/es/) -> This is the version of the website to replicate archived on May 15th 2019
 
 [Original Web Site](http://www.esigas.com.ar/es/) -> Here is the present version of the website to replicate
 
