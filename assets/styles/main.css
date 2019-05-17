@@ -1,5 +1,60 @@
-body div {
-  margin: 0 auto;
-}
+.cover div {
+  background-size: cover; }
+.cover h1, .cover h2 {
+  background-color: rgba(96, 84, 73, 0.7); }
+.cover-article1 {
+  border-radius: 20px; }
+.cover-article2 {
+  border-radius: 20px; }
+.cover-article3 {
+  border-radius: 20px; }
+
+.cover-article1 {
+  background-image: url(../img/medio-ambiente.jpg); }
+
+.cover-article2 {
+  background-image: url(../img/cambio-climatico-webb.jpg); }
+
+.cover-article3 {
+  background-image: url(../img/caraza.jpg); }
+
+.articles {
+  justify-content: center;
+  margin-top: 30px; }
+
+.article {
+  overflow: hidden;
+  border: 10px solid white;
+  border-radius: 20px;
+  background-color: rgba(220, 220, 220, 0.4); }
+  .article h1 {
+    text-transform: uppercase;
+    display: block;
+    border-bottom: 1px solid black; }
+  .article * {
+    padding: 10px; }
+
+body {
+  font-family: "Hind", sans-serif; }
+
+.navbar {
+  z-index: 10;
+  background-color: white; }
+
+.footer-top-nav ul li > a {
+  font-size: 1rem; }
+.footer-top-contact ul li > a {
+  font-size: 1rem; }
+.footer-top-socialmedia ul li > a {
+  font-size: 1rem; }
+
+.middle-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  position: relative;
+  height: 80vh;
+  background-color: gray; }
 
 /*# sourceMappingURL=main.css.map */
